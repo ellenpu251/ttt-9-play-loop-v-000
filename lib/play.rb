@@ -47,3 +47,4 @@ def play(board)
     i = i + 1
   end
 end
+
