@@ -39,11 +39,7 @@ end
 def play(board)
   i = 0
   while i <= 9
-    if i > 9
-      return 0
-    else
-      turn(board)
-    end
+    turn(board)
     i = i + 1
   end
 end
